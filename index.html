@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <title>Div Animation</title>
+  </head>
+  <body>
+    <!-- jumbotron starts -->
+    <section class="jumbotron">
+      <form>
+        <h3 id="balanceHeader" class="text-center">Wallet Balance</h3>
+        <h1 id="walletBalance" class="text-center"><span>$</span>0.00</h1>
+        <div id="input">
+          <label for="">Transaction Value</label>
+          <input
+            class="form-control form-control-lg"
+            type="number"
+            name=""
+            id="transactionInput"
+            required
+          />
+          <label for="">Transaction Location</label>
+          <input
+            class="form-control form-control-sm"
+            type="text"
+            name=""
+            id="transactionLocation"
+            required
+          />
+          <div class="btnDiv">
+            <button class="btn btn-lrg" id="plusBtn">
+              <i class="fas fa-plus"></i>
+            </button>
+            <button class="btn btn-lrg" id="minusBtn">
+              <i class="fas fa-minus"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <!-- jumbotron ends -->
+    <!-- expenses start -->
+    <section id="expenses">
+      <h3 class="text-center my-2">Transactions</h3>
+      <div id="whereExpensesshow"></div>
+    </section>
+    <!-- expenses end -->
+    <!-- bootstrap scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- custom scripts -->
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>

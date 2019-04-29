@@ -1,0 +1,84 @@
+:root {
+  --main-red: #f44336;
+  --main-offwhite: #fafafa;
+  --main-black: #424242;
+  --main-green: #00c851;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+}
+.jumbotron {
+  border-radius: 0;
+  background-image: url("../images/redmountains.png");
+  margin-bottom: 1rem;
+}
+label {
+  color: var(--main-offwhite);
+  margin-top: 0.5rem;
+}
+input[type="text"],
+input[type="number"] {
+  background: transparent;
+  outline: none;
+  border-style: none none solid none;
+  border-width: 1px;
+  border-color: var(--main-offwhite);
+  border-radius: 0;
+  color: var(--main-offwhite);
+}
+form {
+  width: 70%;
+  margin: 0 auto;
+  color: var(--main-offwhite);
+}
+#expenses {
+  width: 70%;
+  margin: 0 auto;
+}
+.form-control {
+  outline: none;
+}
+.plus {
+  color: var(--main-offwhite);
+  background: var(--main-green);
+  padding: 0.5rem;
+}
+.plus h5,
+.minus h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0;
+  margin: 0rem, 1rem, 1rem, 1rem;
+  text-align: right;
+}
+.plus p,
+.minus p {
+  padding: 0;
+  margin: 0.5rem;
+  text-align: right;
+}
+.minus {
+  color: var(--main-offwhite);
+  background-color: var(--main-red);
+  padding: 0.5rem;
+}
+#plusBtn,
+#minusBtn {
+  width: 47%;
+  margin: 0.5rem 0.5rem;
+  border: 1px solid var(--main-offwhite);
+}
+#plusBtn {
+  color: var(--main-offwhite);
+  background-color: var(--main-green);
+}
+#minusBtn {
+  color: var(--main-offwhite);
+  background-color: var(--main-red);
+}
+.btnDiv {
+  margin: 1rem;
+}
